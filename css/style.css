@@ -17,3 +17,7 @@ nav {
 .introduction {
 	font-family: 'DM Serif Display', serif;
 }
+
+.bg-violet {
+	background-color: hsl(256, 26%, 20%);
+}
