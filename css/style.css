@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
 
 * {
 	box-sizing: border-box;
 }
 
-nav {
-	font-family: 'Karla', sans-serif;;
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+h1, h4 {
+	font-family: 'DM Serif Display', serif;
 }
 
 
@@ -14,9 +17,6 @@ nav {
 	border-width: medium;
 }
 
-.introduction {
-	font-family: 'DM Serif Display', serif;
-}
 
 .bg-violet {
 	background-color: hsl(256, 26%, 20%);
