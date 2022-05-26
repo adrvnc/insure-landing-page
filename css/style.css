@@ -20,4 +20,49 @@ h1, h4 {
 
 .bg-violet {
 	background-color: hsl(256, 26%, 20%);
+	margin-top: 150px;
+	padding: 60px;
+	width: 85%;
+}
+
+#banner-text {
+	max-width: 350px;
+}
+
+#header-text {
+	max-width: 450px;
+	font-size: 60px;
+}
+
+#header-paragraph {
+	max-width: 530px;
+}
+
+#affordable-text, #people-text {
+	max-width: 350px;
+}
+
+#snappy-text {
+	max-width: 330px;
+}
+
+@media only screen and (max-width: 992px) {
+	#snappy-text, #affordable-text, #people-text, #header-text, #header-paragraph {
+		max-width: none;
+	}
+
+	#desktop-image {
+		display: none;
+	}
+
+	#mobile-image {
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+  #mobile-image {
+  	display: none;
+  }
 }
