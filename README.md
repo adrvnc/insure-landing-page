@@ -43,7 +43,7 @@ Users should be able to:
 ### What I Learned 
 
 I learned how to realign content using different viewport sizes 
-with bootstrap. For example, if I want to align a paragraph to the center
+with Bootstrap. For example, if I want to align a paragraph to the center
 for mobile devices and tablets, I would use `text-center`. However, If 
 I want to realign the paragraph to the left on larger viewports, 
 such as a desktop; I would use `text-lg-start`. 
