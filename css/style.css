@@ -12,49 +12,68 @@ h1, h4 {
 	font-family: 'DM Serif Display', serif;
 }
 
+.nav-link {
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.nav-hover-btn {
+	border-color: hsl(256, 26%, 20%);
+	border-width: medium;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.nav-hover-btn:hover {
+	background-color: hsl(256, 26%, 20%);
+	color: white;
+}
+
 .introduction {
 	background-color: hsl(256, 26%, 20%);
 	padding-top: 200px;
 }
 
-.hover-btn {
-	border-width: medium;
-}
-
-.bg-violet {
-	background-color: hsl(256, 26%, 20%);
-	margin-top: 100px;
-	padding: 60px;
-	width: 85%;
-}
-
-#desktop-image {
-	margin-bottom: -150px;
-}
-
-#banner-text {
-	max-width: 350px;
-}
-
-#header-text {
+.header-text {
 	font-size: 60px;
 	max-width: 450px;
 }
 
-#header-paragraph {
+.header-paragraph {
 	max-width: 550px;
+}
+
+.desktop-image {
+	margin-bottom: -150px;
+}
+
+.hover-btns {
+	border-width: medium;
+	font-size: 14px;
+	letter-spacing: 1px;
 }
 
 .call-to-action {
 	margin-top: 250px;
 }
 
-#affordable-text, #people-text {
+.affordable-text, .people-text {
 	max-width: 350px;
 }
 
-#snappy-text {
+.snappy-text {
 	max-width: 330px;
+}
+
+.how-we-work {
+	background-color: hsl(256, 26%, 20%);
+	margin-top: 100px;
+	padding: 60px;
+	width: 85%;
+}
+
+.how-we-work-text {
+	max-width: 350px;
 }
 
 .footer-link:hover {
@@ -66,11 +85,11 @@ a i:hover {
 }
 
 @media only screen and (max-width: 992px) {
-	#snappy-text, #affordable-text, #people-text, #header-text, #header-paragraph {
+	.snappy-text, .affordable-text, .people-text, .header-text, .header-paragraph {
 		max-width: none;
 	}
 
-	#desktop-image {
+	.header-border, .desktop-image {
 		display: none;
 	}
 
@@ -79,7 +98,7 @@ a i:hover {
 		padding-top: 100px;
 	}
 
-	#header-text {
+	.header-text {
 		margin-top: 75px;
 	}
 
@@ -90,7 +109,7 @@ a i:hover {
 }
 
 @media only screen and (min-width: 992px) {
-  #mobile-image {
+  .mobile-image {
   	display: none;
   }
 }
